@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/slider.jpg);
+    background-size: cover;  
+}
+.head-background {
+    background-color: rgba(0,0,0,.5);
+}
+.top-bar {
+    border-bottom: 1px solid rgb(54, 54, 54);
+    font-size: 14px;
+}
+.navitems ul li a {
+    font-size: 14px;
+    font-weight: 600;
+}
+.ser-dd a {
+    color: gray;
+}
+.ser-dd a:hover {
+    color: rgb(252, 61, 106);
+}
+
+.slider {
+    height: 75vh;
+}
+.slider h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 2em;
+}
+.slider p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1em;
+}
+.reg-btn a {
+    padding: 14px 35px;
+    background-color: rgb(252, 61, 106);
+    font-weight: 600;
+}
+
+.divider {
+    background-color: rgb(252, 61, 106);
+    display: inline-block;
+    width: 8%;
+    height: 2px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.divider-2 {
+    background-color: rgb(252, 61, 106);
+    display: inline-block;
+    width: 20%;
+    height: 2px;
+}
+.sdiv {
+    border-radius: 20px;
+}
+.sdiv p {
+    font-size: 14px;
+    color: gray;
+}
+.sdiv a {
+    background-color: rgb(252, 61, 106);
+    padding: 8px 18px;
+}
+.sdiv:hover {
+    background-color: rgb(252, 61, 106);
+    color: white;
+}
+.sdiv:hover img {
+    border: 5px solid white;
+}
+.sdiv:hover p {
+    background-color: rgb(252, 61, 106);
+    color: white;
+}
+.sdiv:hover .divider-2 {
+    background-color: white
+}
+.sdiv:hover a {
+    background-color: white;
+    color: black!important;
+}
+
+.dbackground {
+    background-image: url(images/deals-background.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 70em;
+}
+.ddiv:hover {
+    background-color: rgb(252, 61, 106);
+    color: white;
+}
+.ddiv:hover a {
+    color: black!important;
+    background-color: white!important;
+}
+
+.tleft h1 {
+    font-size: 65px;
+    color: rgb(252, 61, 106);
+}
+.divider-3 {
+    background-color: rgb(252, 61, 106);
+    display: inline-block;
+    border-radius: 30px;
+    width: 35%;
+    height: 4px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.tleft ul li {
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+.box-img {
+    position: relative;
+    z-index: 1;
+}
+.box-img img {
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.35);
+}
+.box-img:after {
+    background: #fc4e89 none repeat scroll 0 0;
+    border-radius: 12px;
+    bottom: -20px;
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.35);
+    color: #000000;
+    content: "";
+    height: 40%;
+    position: absolute;
+    right: -20px;
+    width: 70%;
+    z-index: -1;
+}
+
+.foot ul li {
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+}
+.s-foot {
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+}

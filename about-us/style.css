@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    background: linear-gradient( rgba(255, 255, 255, 1.5), rgba(255, 255, 255, 0.5) ), url(images/bkgrd-img.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+.head-background {
+    background-color: rgba(0,0,0,.5);
+}
+.top-bar {
+    border-bottom: 1px solid rgb(158, 158, 158);
+    font-size: 14px;
+}
+.navitems ul li a {
+    font-size: 14px;
+    font-weight: 600;
+}
+.ser-dd a {
+    color: gray;
+}
+.ser-dd a:hover {
+    color: rgb(252, 61, 106);
+}
+
+
+.foot ul li {
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+}
+.s-foot {
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+}
